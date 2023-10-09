@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 import { Link } from "react-router-dom";
 import Navbar from "../Shared/Navbar/Navbar";
@@ -8,13 +9,12 @@ import Footer from "../Shared/Footer/Footer";
 
 const Register = () => {
 
-    const {createUser} = useContext(AuthContext);
+    const {createUser,provider, GoogleLogin} = useContext(AuthContext);
     const notify = () => toast('User Created Successfully');
     const problem = () => toast('Something Went Wrong');
     const [registerError, setRegisterError] = useState(problem());
     
     const handleRegister = e =>{
-
 
         e.preventDefault();
         const form = new FormData(e.currentTarget);
@@ -37,6 +37,9 @@ const Register = () => {
         .catch(error=>{
             setRegisterError(error.message)
         })
+    }
+    const handleGoogle =(auth, provider)=>{
+        GoogleLogin(auth, provider);
     }
 
     return (
@@ -69,6 +72,9 @@ const Register = () => {
             <button className="btn btn-primary">Register</button>
             </div>
         </form>
+        <div className="w-[300px] mx-auto m-2">
+            <button onClick={handleGoogle} className="btn btn-secondary">Google</button>
+        </div>
         <p>Already Have An Account? Please <Link className="text-blue-600 font-bold" to='/login'>Login</Link></p>
        </div>
        <Toaster />
