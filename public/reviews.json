@@ -1,0 +1,124 @@
+ [
+      {
+        "id":1,
+        "customer_name": "John Doe",
+        "rating": 5,
+        "comment": "Amazing event! I had a blast at the tech and gaming program organized by this company. The activities were well-planned, and the staff was very friendly."
+      },
+      {
+        "id":2,
+        "customer_name": "Jane Smith",
+        "rating": 4,
+        "comment": "Great job! The event management team did a fantastic job at the tech and gaming program. It was a fun and memorable experience."
+      },
+      {
+        "id":3,
+        "customer_name": "Mike Johnson",
+        "rating": 4,
+        "comment": "The event was well-organized, and the gaming competitions were exciting. I would recommend this company to my friends."
+      },
+      {
+        "id":4,
+        "customer_name": "Sarah Davis",
+        "rating": 5,
+        "comment": "I can't express how much fun I had at the tech and gaming event. It exceeded my expectations, and I look forward to attending more in the future."
+      },
+      {
+        "id":5,
+        "customer_name": "Chris Anderson",
+        "rating": 3,
+        "comment": "The event was good overall, but there were some minor hiccups in the schedule. Still, I enjoyed the gaming tournaments."
+      },
+      {
+        "id":6,
+        "customer_name": "Emily Wilson",
+        "rating": 5,
+        "comment": "Outstanding event! The tech and gaming programs were top-notch, and the organizers were very accommodating. I had a fantastic time."
+      },
+      {
+        "id":17,
+        "customer_name": "David Brown",
+        "rating": 4,
+        "comment": "I had a great time at the event. The gaming competitions were intense, and I made new friends who share my passion for technology and gaming."
+      },
+      {
+        "id":8,
+        "customer_name": "Linda Miller",
+        "rating": 5,
+        "comment": "This company knows how to throw an awesome event! The tech and gaming program was a blast, and I had an unforgettable experience."
+      },
+      {
+        "id":9,
+        "customer_name": "Robert Taylor",
+        "rating": 4,
+        "comment": "I thoroughly enjoyed the event. The tech workshops were informative, and the gaming tournaments were competitive. Well done!"
+      },
+      {
+        "id":10,
+        "customer_name": "Karen White",
+        "rating": 3,
+        "comment": "The event was decent, but I expected a bit more variety in the gaming activities. Nonetheless, it was a good experience."
+      },
+      {
+        "id":11,
+        "customer_name": "Mark Adams",
+        "rating": 5,
+        "comment": "I can't praise this company enough. The tech and gaming event was fantastic, and the staff was attentive to every detail."
+      },
+      {
+        "id":12,
+        "customer_name": "Jennifer Harris",
+        "rating": 4,
+        "comment": "A fun-filled event! The tech presentations were engaging, and the gaming zone was buzzing with excitement. I had a great time."
+      },
+      {
+        "id":13,
+        "customer_name": "Paul Carter",
+        "rating": 5,
+        "comment": "Kudos to the event management team! The tech and gaming program exceeded my expectations, and I left with unforgettable memories."
+      },
+      {
+        "id":14,
+        "customer_name": "Susan Evans",
+        "rating": 4,
+        "comment": "I had a good time at the event. The tech sessions were informative, and the gaming tournaments were competitive. It was a worthwhile experience."
+      },
+      {
+        "id":15,
+        "customer_name": "James Parker",
+        "rating": 3,
+        "comment": "The event was okay, but I expected more interactive tech demonstrations. The gaming section was enjoyable, though."
+      },
+      {
+        "id":16,
+        "customer_name": "Lisa Turner",
+        "rating": 5,
+        "comment": "A fantastic event! The tech and gaming programs were well-executed, and I had a blast throughout. I'll definitely attend future events."
+      },
+      {
+        "id":17,
+        "customer_name": "William Martinez",
+        "rating": 4,
+        "comment": "I had a great time at the event. The tech workshops were insightful, and the gaming competitions were thrilling. Well done!"
+      },
+      {
+        "id":18,
+        "customer_name": "Nancy Lee",
+        "rating": 4,
+        "comment": "The event was enjoyable, and I learned a lot from the tech presentations. The gaming section was a highlight for me."
+      },
+      {
+        "id":19,
+        "customer_name": "Daniel Clark",
+        "rating": 5,
+        "comment": "An outstanding event! The tech and gaming programs were top-notch, and the organizers did an excellent job. Highly recommended!"
+      },
+      {
+        "id":100,
+        "customer_name": "Catherine Scott",
+        "rating": 4,
+        "comment": "I had a good time at the event. The tech sessions were informative, and the gaming tournaments were competitive. It was a worthwhile experience."
+      }
+    ]
+  
+  

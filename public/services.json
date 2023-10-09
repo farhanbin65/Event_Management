@@ -1,0 +1,46 @@
+[
+
+  {
+    "id": 1,
+    "name": "Tech Conference Planning",
+    "price": 2500,
+    "image": "https://i.ibb.co/1Gqvbq4/image-2023-10-09-113602283.png",
+    "description": "Our Tech Conference Planning service is perfect for businesses looking to host cutting-edge technology events. We handle all aspects, from venue selection to speaker coordination, ensuring a seamless experience for your attendees. Let us bring your tech vision to life."
+  },
+  {
+    "id": 2,
+    "name": "Gaming Tournament Organization",
+    "price": 1500,
+    "image": "https://i.ibb.co/3yFxySX/image-2023-10-08-220430382.png",
+    "description": "Level up your gaming events with our Gaming Tournament Organization service. We create exciting eSports tournaments, manage registrations, and provide top-notch equipment. Whether it's PC, console, or mobile gaming, we've got you covered."
+  },
+  {
+    "id": 3,
+    "name": "Tech Workshop Coordination",
+    "price": 1200,
+    "image": "https://i.ibb.co/0CsQ5VK/image-2023-10-09-113835502.png",
+    "description": "Learn from industry experts with our Tech Workshop Coordination service. We curate educational tech workshops on a variety of topics. From coding bootcamps to AI seminars, we ensure your attendees gain valuable insights."
+  },
+  {
+    "id": 4,
+    "name": "Gaming Expo Planning",
+    "price": 1800,
+    "image": "https://i.ibb.co/6Dkn2s0/image-2023-10-09-113156034.png",
+    "description": "Bring the gaming community together with our Gaming Expo Planning service. We organize large-scale gaming expos featuring the latest releases, cosplay competitions, and exclusive sneak peeks. Make your expo a gamer's paradise."
+  },
+  {
+    "id": 5,
+    "name": "Tech Product Launch Event",
+    "price": 3000,
+    "image": "https://i.ibb.co/xHhfPm8/image-2023-10-09-113457160.png",
+    "description": "Introduce your tech products to the world with our Tech Product Launch Event service. We create buzzworthy launch events that showcase your innovations. From VR demos to interactive displays, we make your product shine."
+  },
+  {
+    "id": 6,
+    "name": "Gaming Party Planning",
+    "price": 800,
+    "image": "https://i.ibb.co/R4ZNmxY/image-2023-10-09-114028306.png",
+    "description": "Host epic gaming parties with our Gaming Party Planning service. We provide gaming consoles, multiplayer setups, and themed decor for a memorable experience. Whether it's a birthday bash or casual gaming night, we've got the fun covered."
+  }
+
+]
