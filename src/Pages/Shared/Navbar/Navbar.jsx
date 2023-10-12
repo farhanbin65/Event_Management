@@ -32,24 +32,35 @@ const Navbar = () => {
                         {navLinks}
                     </ul>
                     </div>
-                    <a className="btn btn-ghost normal-case text-xl">Event Management</a>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl">Event Management</Link>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 gap-4">
                         {navLinks}
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end ">
                 {
                     user ? <>
-                    <span className="text-semibold bg-slate-300 p-2 text-black rounded-lg m-2">{user.email}</span>
-                    <button onClick={handleSignOut} className="btn">Sign Out</button></>
+                    {
+                    user.displayName ?
+                    <div className="flex items-center m-2">
+                    <img className="rounded-l-full h-10" src={user.photoURL}  />
+                    <span className="text-bold bg-slate-300 p-2 text-black rounded-r-full ">{user.displayName}</span>
+                    </div>
+                    :
+                    <div className="flex bg-slate-300 rounded-full items-center m-2">
+                        <img className="rounded-l-full h-10" src="https://i.ibb.co/94VBGVL/user-3296.png"  />
+                        <span className="text-bold bg-slate-300 p-2 text-black rounded-r-full">{user.email}</span>
+                    </div>
+                    }
+                    <button onClick={handleSignOut} className="btn">Sign Out</button>
+                    </>
                     : 
                     <Link to='/login'>
                         <button className="btn">Login</button>
                     </Link>
-                }
-               
+                } 
             </div>
             </div>
             <Toaster />

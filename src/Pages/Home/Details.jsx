@@ -12,7 +12,7 @@ const Details = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="card m-4 mx-auto lg:w-3/4 bg-base-100 shadow-xl my-16 border-b-2">
+            <div className="card m-4 mx-auto w-4/5 lg:w-3/4 bg-base-100 shadow-xl my-24 border-b-2">
                 <figure><img src={image} alt="" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">{name}</h2>

@@ -9,7 +9,7 @@ import Footer from "../Shared/Footer/Footer";
 
 const Register = () => {
 
-    const {createUser,provider, GoogleLogin} = useContext(AuthContext);
+    const {createUser} = useContext(AuthContext);
     const notify = () => toast('User Created Successfully');
     const problem = () => toast('Something Went Wrong');
     const [registerError, setRegisterError] = useState(problem());
@@ -21,7 +21,7 @@ const Register = () => {
         const email = form.get('email');
         const password = form.get('password');
         const name = form.get('name');
-        console.log(email, name, password)
+        console.log(email, name, password);
         const regularExpression  = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
     
         if(password.search(regularExpression)){
@@ -38,17 +38,14 @@ const Register = () => {
             setRegisterError(error.message)
         })
     }
-    const handleGoogle =(auth, provider)=>{
-        GoogleLogin(auth, provider);
-    }
+
 
     return (
         <div>
         <Navbar></Navbar>
-        
        <div className="text-center">
        <h2 className="text-5xl font-bold m-10">Register</h2>
-        <form onSubmit={handleRegister} className="md:w-3/4 my-10 mx-auto lg:w-1/2">
+        <form onSubmit={handleRegister} className="md:w-3/4 w-4/5 my-10 mx-auto lg:w-1/2">
             <div className="form-control">
             <label className="label">
                 <span className="label-text">Name</span>
@@ -72,9 +69,6 @@ const Register = () => {
             <button className="btn btn-primary">Register</button>
             </div>
         </form>
-        <div className="w-[300px] mx-auto m-2">
-            <button onClick={handleGoogle} className="btn btn-secondary">Google</button>
-        </div>
         <p>Already Have An Account? Please <Link className="text-blue-600 font-bold" to='/login'>Login</Link></p>
        </div>
        <Toaster />

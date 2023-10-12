@@ -10,7 +10,7 @@ const Home = () => {
         <div>
           <Navbar></Navbar>
           <section className="mx-auto w-4/5">
-            <div className="my-10 w-3/4 mx-auto bg-[#FEF9E7] p-4 rounded-lg">
+            <div className="my-10 w-full mx-auto bg-[#FEF9E7] p-4 rounded-lg">
               <h2 className="text-5xl font-bold text-center m-4">Explore us</h2>
               <p className="text-center">Welcome , where passion for gaming and technology meets the art of event
                management. The driving force behind this venture, and Ive been captivated by the world of gaming 

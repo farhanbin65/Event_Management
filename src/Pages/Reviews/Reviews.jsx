@@ -9,8 +9,8 @@ const Reviews = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="w-3/4 mx-auto">
-            <div className="grid grid-cols-2">
+            <div className="md:w-3/4  mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2">
                 {
                     reviews.map(review =><Review key={review.id} review={review}></Review>)   
                 }

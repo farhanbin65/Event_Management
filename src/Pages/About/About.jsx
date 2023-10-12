@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className=" mx-auto lg:w-3/4">
+            <div className=" mx-auto w-4/5 lg:w-3/4">
             <h1 className="my-10 text-center text-5xl font-bold">About Us</h1>
             <div className="collapse collapse-arrow  bg-base-200">
                 <input type="radio" name="my-accordion-2" checked="checked" /> 
